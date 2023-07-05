@@ -4,7 +4,7 @@ Anti-cheats for SAMP supports updated versions
 You load the filterscript, and you add the following code to your gamemode and can use the new functions
 Note that you have a public that checks an unsupported version in anticheat, it is recommended to block them and inform them that they need to update their SAMP version
 
-
+```cpp
 forward OnDetecteds0beit(playerid);
 public OnDetecteds0beit(playerid)
 {
@@ -47,3 +47,5 @@ public OnDetectedSlientaim(playerid)
     printf("slientaim detected %d", playerid);
     return 1;
 }
+
+```
