@@ -5,6 +5,7 @@ You load the filterscript, and you add the following code to your gamemode and c
 Note that you have a public that checks an unsupported version in anticheat, it is recommended to block them and inform them that they need to update their SAMP version
 
 ```cpp
+
 forward OnDetecteds0beit(playerid);
 public OnDetecteds0beit(playerid)
 {
@@ -18,6 +19,15 @@ public OnDetectedSAMPFUNCS(playerid)
     printf("sampfuncs detected %d", playerid);
     return 1;
 }
+
+//use SprintHook.asi auto run fast cheat
+forward OnDetectedSprintHook(playerid);
+public OnDetectedSprintHook(playerid)
+{
+    printf("SprintHook detected %d", playerid);
+    return 1;
+}
+
 //CLEO,modloader,modloader..etc
 forward OnDetectedMods(playerid);
 public OnDetectedMods(playerid)
