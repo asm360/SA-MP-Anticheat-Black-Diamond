@@ -4,7 +4,7 @@ Anti-cheats for SAMP supports updated versions
 You load the filterscript, and you add the following code to your gamemode and can use the new functions
 Note that you have a public that checks an unsupported version in anticheat, it is recommended to block them and inform them that they need to update their SAMP version
 
-Unopened code to protect against bypass attempts, afraid of malicious code? This is an amx file, its compiler is not complicated, you can throw the file in hexeditor and see all the functions I use and also the strings (at the end of the file)
+no open source why? to protect against bypass attempts, afraid of malicious code? This is an amx file, its compiler is not complicated, you can throw the file in hexeditor and see all the functions I use and also the strings (at the end of the file)
 At the beginning of his the functions
 
 ```cpp
