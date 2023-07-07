@@ -9,6 +9,8 @@ At the beginning of his the functions
 
 ```cpp
 
+
+//It is recommended to block players using this
 forward OnDetecteds0beit(playerid);
 public OnDetecteds0beit(playerid)
 {
@@ -53,12 +55,13 @@ public OnDetectedOldversion(playerid)
     printf("oldversion detected %d", playerid);
     return 1;
 }
-
-forward OnDetectedSlientaim(playerid);
-public OnDetectedSlientaim(playerid)
+//Not wrong at all, very useful for advanced types of silent aim
+forward OnDetectedSilentaim(playerid);
+public OnDetectedSilentaim(playerid)
 {
-    printf("slientaim detected %d", playerid);
+    printf("silentaim detected %d", playerid);
     return 1;
 }
+
 
 ```
